@@ -1,0 +1,26 @@
+messaging:
+  provider: nsq
+  nsq:
+    nsqdTCPAddresses:
+      - 'localhost:4150'
+  topics:
+    groupA:
+      topicA: groupa.topica
+  queues:
+    groupA:
+      topicAConsume: groupa.topica/consume
+
+storage:
+  filesystem:
+    foo:
+      baseDir: /tmp/foo
+  s3:
+    foo:
+      bucket: cloud-helpers-foo
+db:
+  provider: mongo
+  mongo:
+    test:
+      uri: mongodb://localhost:27017/test
+    collections:
+      test: test/test

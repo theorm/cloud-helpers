@@ -1,0 +1,26 @@
+messaging:
+  provider: nsq
+  nsq:
+    nsqdTCPAddresses:
+      - 'localhost:4150'
+    maxBackoffDuration: 0
+    requeueDelay: 5000
+  topics:
+    testGroup:
+      testTopic: testTopic
+  queues:
+    testGroup:
+      testQueue: testTopic/testQueue
+
+storage:
+  provider: filesystem
+  filesystem:
+    foo:
+      baseDir: /tmp/cloud-helpers-test
+db:
+  provider: mongo
+  mongo:
+    test:
+      uri: mongodb://localhost:27017/test
+    collections:
+      test: test/test
