@@ -6,7 +6,8 @@ function onError(error) {
 }
 
 const messaging = new Messaging(onError, {
-  nsqdTCPAddresses: ['127.0.0.1:4150']
+  nsqdTCPAddresses: ['127.0.0.1:4150'],
+  lookupdHTTPAddresses: ['127.0.0.1:4161']
 })
 
 async function main() {
