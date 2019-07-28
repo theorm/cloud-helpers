@@ -17,19 +17,19 @@
     "koa": "2.7.0",
     "koa-bodyparser": "4.2.1",
     "koa-router": "7.4.0",
-    "lodash": "4.17.11",
-    "loglevel": "1.6.1",
+    "lodash": "4.17.15",
+    "loglevel": "1.6.3",
     "mkdirp": "0.5.1",
     "protobufjs": "6.8.8",
     "uuid": "3.3.2",
     "yaml": "1.5.0"
   },
   "devDependencies": {
-    "eslint": "5.16.0",
-    "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "2.17.2",
-    "eslint-plugin-jest": "22.4.1",
-    "jest": "24.7.1",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb-base": "13.2.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jest": "22.14.0",
+    "jest": "24.8.0",
     "nsqjs": "0.12.0"
   }
 }
