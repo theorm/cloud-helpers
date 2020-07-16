@@ -17,7 +17,7 @@
     "koa": "2.7.0",
     "koa-bodyparser": "4.2.1",
     "koa-router": "7.4.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "loglevel": "1.6.3",
     "mkdirp": "0.5.1",
     "protobufjs": "6.8.8",
